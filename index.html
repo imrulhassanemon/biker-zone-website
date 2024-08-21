@@ -22,7 +22,8 @@
               colors: {
                 clifford: '#da373d',
                 bike_primary: '#E76F51',
-                'background-color-pink': 'rgba(231, 111, 81, 0.1)',
+                'gray-text': '#6C6C6C',
+
               }
             }
           }
@@ -175,64 +176,47 @@
     <main class="container mx-auto">
 
        <!-- this is the latest news section  -->
-      <div class="mt-16 md:mt-28 ">
-        <!-- card-1  -->
-        <h1 class="text-2xl md:text-5xl max-md:font-extrabold font-bold text-center mb-5">Latest New</h1>
-          <div class="flex justify-center gap-16">
-            <div class="border border-red-600">
-              <div class="card bg-base-100 w-96 shadow-xl mt-5">
-                <figure>
-                  <img
-                  src="images/others/latest1.png"
-                  alt="Shoes" />
-                 </figure>
-                 <div class="card-body">
-                   <h2 class="card-title">Shoes!</h2>
-                   <p>If a dog chews shoes whose shoes does he choose?</p>
-                   <div class="card-actions justify-start">
-                     <button class="btn bg-bike_primary text-white">Read More</button>
-                   </div>
-                 </div>
-               </div>
-             </div>
-   
-             <!-- card -2  -->
-             <div class="border border-red-600">
-              <div class="card bg-base-100 w-96 shadow-xl mt-5">
-                <figure>
-                  <img
-                  src="images/others/latest1.png"
-                  alt="Shoes" />
-                 </figure>
-                 <div class="card-body">
-                   <h2 class="card-title">Shoes!</h2>
-                   <p>If a dog chews shoes whose shoes does he choose?</p>
-                   <div class="card-actions justify-start">
-                     <button class="btn bg-white border border-[#E76F51] text-[#E76F51]">Read More</button>
-                   </div>
-                 </div>
-               </div>
-             </div>
-   
-             <!-- card- 3  -->
-             <div class="border border-red-600">
-              <div class="card bg-base-100 w-96 shadow-xl mt-5">
-                <figure>
-                  <img
-                  src="images/others/latest1.png"
-                  alt="Shoes" />
-                 </figure>
-                 <div class="card-body">
-                   <h2 class="card-title">Shoes!</h2>
-                   <p>If a dog chews shoes whose shoes does he choose?</p>
-                   <div class="card-actions justify-start">
-                     <button class="btn bg-white border border-[#E76F51] text-[#E76F51]">Read More</button>
-                   </div>
-                 </div>
-               </div>
-             </div>
-         </div>
+
+       <div class='mt-10 flex justify-center md:mt-24 mb-10'>
+        <h1 class="text-4xl font-bold 4 ">latest News</h1>
+       </div>
+      <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3 ">
+
+        <!-- card-01  -->
+        <div class="card bg-base-100 w-96 shadow-xl p-5 bg-[#a3a3a367] ">
+          <img src="images/others/latest1.png" alt="">
+          <div class="card-body">
+            <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+            <p class="font-medium text-gray-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+            <div class="card-actions justify-start">
+              <button class="btn bg-bike_primary text-white">Read More</button>
+            </div>
           </div>
+        </div>
+        <!-- card 2 -->
+        <div class="card bg-base-100 w-96 shadow-xl p-5 bg-[#a3a3a367]">
+          <img src="images/others/latest1.png" alt="">
+          <div class="card-body">
+            <h2 class="card-title">Motorcycles & Scooters</h2>
+            <p class="font-medium text-gray-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+            <div class="card-actions justify-start">
+              <button class="btn bg-white text-bike_primary border-bike_primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- card -3  -->
+        <div class="card bg-base-100 w-96 shadow-xl p-5 bg-[#a3a3a367]">
+          <img src="images/others/latest1.png" alt="">
+          <div class="card-body">
+            <h2 class="card-title">2021 Honda CBR500R</h2>
+            <p class="text-gray-text font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+            <div class="card-actions justify-start">
+              <button class="btn  bg-white text-bike_primary border-bike_primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
     </main>
      <!-- footer  -->
     <footer></footer>
